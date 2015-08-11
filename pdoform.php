@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<head>
+<title>Form for pdo</title>
+</head>
+<body>
+<form name="frm1" method="POST" action="insert.php">
+<table>
+<caption>Fill Simple Form</caption>
+<tbody>
+    <tr>
+        <td>Your ID </td>
+        <td><input type="number" name= "id1" id="id1"></td>
+    </tr>
+    
+    <tr>
+        <td>Name </td>
+        <td><input type="text" name= "name1" id="name1"></td>
+    </tr>
+    
+    <tr>
+        <td>Address</td>
+        <td><textarea rows="6" cols="50" name="add1" id="add1"></textarea></td>
+    </tr>
+    
+    <tr>
+        <td>
+            <input type="submit" name="submit" value="submit">
+        </td>
+        <td>
+            <a href="view.php">View</a>
+        </td>
+    </tr>
+</tbody>
+</table>
+</body>
+</html>
